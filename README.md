@@ -10,7 +10,5 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshot.png)
+![](./chat-app-css-illustration-master/screenshot.png)
 
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
