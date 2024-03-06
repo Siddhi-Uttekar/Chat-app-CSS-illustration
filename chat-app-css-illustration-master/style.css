@@ -4,8 +4,6 @@ body{
 
 }
 
-.container{
-}
 
 .background-icon1{
     margin: 0;
@@ -290,3 +288,69 @@ h3{
     font-weight: 200;
 
 }
+
+@media screen and (max-width: 375px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .background-icon1{
+        margin: 0;
+        padding: 0;
+        height:600px;
+        width: 420px;
+        background-color:  hsl(264, 54%, 61%);
+        border-bottom-left-radius: 210px;
+        border-bottom-right-radius: 210px;
+        border-bottom: 20px;
+        position:relative;
+        right:250px;
+        bottom:20px;
+
+    }
+
+    .background-icon2{
+        margin-left: 1185px;
+        right:60rem;
+        bottom:128px;
+        padding: 0;
+        height:600px;
+        width: 420px;
+        background-color:hsl(268, 79%, 96%) ;
+        border-bottom-left-radius: 210px;
+        border-bottom-right-radius: 210px;
+        border-bottom: 20px;
+        position:relative;
+        rotate:180deg;
+
+    }
+
+    .phone{
+        width:230px;
+        height:500px;
+        background-color: white;
+        position:absolute;
+        bottom:300px;
+        top:130px;
+        left:70px;
+        margin-right: 500px;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .middle_box{
+        height: 150px;
+        width:270px;
+        position:absolute;
+        top:680px;
+        left:3rem;
+        font-family: "Rubik", sans-serif;
+        text-align:center;
+
+
+    }
+
+
+  }
